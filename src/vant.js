@@ -1,0 +1,22 @@
+import Vue from 'vue'
+import { CouponCell, CouponList, Tabbar, TabbarItem, Swipe, SwipeItem, Grid, GridItem, Col, Row, Search, Icon, Popup, Picker, Tab, Tabs, Card, Tag, RadioGroup, Radio } from 'vant'
+
+Vue.use(Tabbar)
+Vue.use(TabbarItem)
+Vue.use(Swipe)
+Vue.use(SwipeItem)
+Vue.use(Grid)
+Vue.use(GridItem)
+Vue.use(Col)
+Vue.use(Row)
+Vue.use(Search)
+Vue.use(Icon)
+Vue.use(Popup)
+Vue.use(Picker)
+Vue.use(CouponCell).use(CouponList)
+Vue.use(Tab)
+Vue.use(Tabs)
+Vue.use(Card)
+Vue.use(Tag)
+Vue.use(Radio)
+Vue.use(RadioGroup)
